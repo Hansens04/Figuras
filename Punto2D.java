@@ -13,8 +13,10 @@ public  class Punto2D extends Figura{
         System.out.println("Ingrese la coordenada y:");
         mY= sc.nextInt();
     }
-    public void imprimirDatos(){
+    public boolean imprimirDatos(){
         System.out.println("Centro figura ("+mX+","+mY+")");
+
+        return false;
     }
     @Override
     public String getTipo() {

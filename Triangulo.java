@@ -58,8 +58,9 @@ public  class Triangulo extends Punto2D{
     }
 
     @Override
-    public void imprimirDatos(){
+    public boolean imprimirDatos(){
         super.imprimirDatos();
         System.out.println("Centro figura ("+mA+","+mB+","+mC+")");
+        return false;
     }
 }

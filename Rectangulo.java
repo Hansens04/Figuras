@@ -42,9 +42,10 @@ public class Rectangulo extends Punto2D {
         mAncho= sc.nextInt();
     }
     @Override
-    public void imprimirDatos(){
+    public boolean imprimirDatos(){
             super.imprimirDatos();
         System.out.println("Centro figura ("+mLargo+","+mAncho+")");
+        return false;
     }
 
 

@@ -74,7 +74,7 @@ public class Main {
 
     private static void imprimirDatos(ArrayList<Figura> figuras) {
         for (Figura figura : figuras) {
-            System.out.println(figura.toString());
+            System.out.println(figura.imprimirDatos());
         }
     }
 

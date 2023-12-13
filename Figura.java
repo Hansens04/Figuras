@@ -14,7 +14,7 @@ public abstract class Figura {
     public abstract String getTipo();
 
     public abstract void leerDatos();
-    public abstract void imprimirDatos();
+    public abstract boolean imprimirDatos();
 
 
 }

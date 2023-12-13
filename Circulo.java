@@ -36,8 +36,9 @@ public class Circulo extends Punto2D {
 
     }
     @Override
-    public void imprimirDatos(){
+    public boolean imprimirDatos(){
         super.imprimirDatos();
         System.out.println("El radio del circulo es:" + radio);
+        return false;
     }
 }
